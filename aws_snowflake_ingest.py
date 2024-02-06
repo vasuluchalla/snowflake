@@ -17,7 +17,7 @@ conn.sql("CREATE SCHEMA IF NOT EXISTS snowpipe_aws.file_formats").collect()
 conn.sql("CREATE SCHEMA IF NOT EXISTS snowpipe_aws.external_stages").collect()
 
 
-conn.sql("create or replace STAGE ingestion.t_series_table_data URL = 's3://demosnowpark/' credentials=(aws_key_id='AKIAQ3EGWQJJYLBOYJFN' aws_secret_key='DvKp4/C3nELihFFJFcEvSwABTn5fy1/oJv52D0ek')"
+conn.sql("create or replace STAGE ingestion.t_series_table_data URL = 's3://demosnowpark/' credentials=(aws_key_id='XXXXXX' aws_secret_key='XXXXXXX')"
          ).collect()
 conn.sql("CREATE OR REPLACE FILE FORMAT snowpipe_aws.file_formats.json_fileformat TYPE = JSON STRIP_OUTER_ARRAY = TRUE").collect()
 
