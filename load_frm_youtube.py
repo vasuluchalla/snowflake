@@ -186,7 +186,7 @@ class FullLoadDataToS3():
 
 if __name__ == "__main__":
     #Youtube API Key 
-    api_key = "AIzaSyCgxCRumhmu7F6Z2NDXA4vShDSkZ7ba6lY"
+    api_key = "xxxx"
 
     """
     This is T-series channel id
