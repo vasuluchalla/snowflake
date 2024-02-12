@@ -4,9 +4,9 @@ import snowflake.connector as sf
 
 
 connection_param = {
-    "ACCOUNT":"NJ81018.eu-central-1",
-    "USER":"vasuluchalla",
-    "PASSWORD":"Saianj@123",
+    "ACCOUNT":"sdfdsdfsds",
+    "USER":"sdsdsds",
+    "PASSWORD":"sdsdsdsds",
     "role":"sysadmin",
     "database":"cricket",
     "warehouse":"compute_wh"
