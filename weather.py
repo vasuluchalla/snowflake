@@ -9,7 +9,7 @@ import sys
 # This is the core of our weather query URL
 BaseURL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/'
 
-ApiKey='HR86JE9HKRFAJK9RSJKDG57JN'
+ApiKey='sdsdsdsds'
 #UnitGroup sets the units of the output - us or metric
 UnitGroup='us'
 
